@@ -14,4 +14,6 @@ const requestGetHouses = () => {
 
 export {
     requestGetBook,
+    requestGetCharacters,
+    requestGetHouses, 
 };
