@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import { requestGetBook } from './Request/request.js';
+import { requestGetBook, requestGetCharacters, requestGetHouses } from './Request/request.js';
+import Header from './Components/header';
+import Books from './Components/books';
+import Houses from './Components/houses';
+import ModalAuthor from './Components/modal-author';
+import Footer from './Components/footer';
 
 class App extends Component {
   constructor() {
@@ -16,6 +21,18 @@ class App extends Component {
     }).catch(error => {
       console.log(error);
     })
+
+    requestGetCharacters().then(data => {
+      console.log(data);
+    }).catch(error => {
+      console.log(error);
+    })
+
+    requestGetHouses().then(data => {
+      console.log(data);
+    }).catch(error => {
+      console.log(error);
+    })
   }
   
 
@@ -23,7 +40,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        
+        <Header/>
+        <Books/>
+        <Houses/>
+        <ModalAuthor/>
+        <Footer/>
       </div>
     );
   }
