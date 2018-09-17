@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 45px;
+    font-size: 25px;
+    color:  black;
+    font-family: 'Ruslan Display', cursive;
+    height: 50px;
+    align-items: center;
+    background-image: url('./Images/background-white.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__social {
+        width: 45px;
+        cursor: pointer;
+    }
+}

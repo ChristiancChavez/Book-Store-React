@@ -1,0 +1,59 @@
+.houses {
+    background-image: url('./Images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ruslan Display', cursive;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    padding: 30px;
+    &__title {
+        font-size: 55px;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding: 30px 0px;
+        padding-top: 15px;
+    }
+    &-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+.house {
+    position: relative;
+    width: 500px;
+    margin: 30px;
+    &__logo {
+        border-radius: 12px;
+        width: 50%;
+        cursor: pointer;
+        border: 2px solid black;
+    }
+    &-info {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 15px;
+        background: rgba(0, 0, 0, 0.918);
+        color: white;
+        padding: 15px;
+        border-radius: 12px;
+        position: absolute;
+        width: 300px;
+        height: 176px;
+        left: 85px;
+        top: -26px;
+        &__title {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        &__description {
+            margin-bottom: 20px;
+        }
+    }
+}
+    }
+
+}

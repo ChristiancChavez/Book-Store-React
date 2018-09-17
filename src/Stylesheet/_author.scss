@@ -1,0 +1,81 @@
+.author {
+    background-image: url('./Images/author.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    padding: 45px;
+    .books {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        padding: 15px;
+        font-size: 15px;
+        color: white;
+        background: rgba(0, 0, 0, 0.6); 
+        border-radius: 12px;
+        text-align: left;
+        font-family: 'Ruslan Display', cursive;
+        width: 450px;
+        margin-bottom: 20px;
+        &__title {
+            font-size: 20px;
+            font-weight: bold; 
+            text-align: center;
+            color: white;
+            padding-bottom: 0px;
+        }
+        &__list {
+            justify-items: center;
+            padding-left: 10px;
+            &-book {
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .bio {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        padding: 15px;
+        font-size: 15px;
+        color: white;
+        background: rgba(0, 0, 0, 0.6); 
+        border-radius: 12px;
+        text-align: center;
+        font-family: 'Ruslan Display', cursive;
+        width: 450px;
+        margin-bottom: 20px;
+        &__title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px; 
+        }
+    }
+    .awards {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        padding: 15px;
+        font-size: 15px;
+        color: white;
+        background: rgba(0, 0, 0, 0.6); 
+        border-radius: 12px;
+        text-align: left;
+        font-family: 'Ruslan Display', cursive;
+        width: 450px;
+        &__title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px; 
+            text-align: center;
+        }
+        &__list {
+            justify-items: center;
+            display: grid;
+            &-award {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
