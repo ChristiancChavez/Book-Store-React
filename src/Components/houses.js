@@ -1,14 +1,47 @@
 import React, { Component } from 'react';
-
+import iconHouse  from '../Images/house.jpg';
 class Houses extends Component {
     render(){
         return(
             <div className="houses">
-                <span className="houses__title">HOUSES OF GAMES OF THRONES</span>
-                <span className="house-container">
-                    <span className="house-container__title">House Algoord</span>
-                    <span className="house-container__description">sjvnfjvnfjvknsvjnsvjsnvjsfvsjnsfjnsfjnsjfnsjlnjsfn</span>
-                    <span className="house-container__region">The Westerlands</span>
+                <span className="houses__title">HOUSES OF ICE AND FIRE SONG</span>
+                <span className="houses-container">
+                    <span className="house">
+                        <img className="house__logo" src={iconHouse} alt=""/>
+                        <span className="house-info">
+                            <span className="house-info__title">House Algoord</span>
+                            <span className="house-info__description">sjvnfjvnfjvknsvjnsvjsnvjsfvs
+                            jnsfjnsfjnsjfnsjlnjsfn</span>
+                            <span className="house-info__region">The Westerlands</span>
+                        </span>
+                    </span>
+                    <span className="house">
+                        <img className="house__logo" src={iconHouse} alt=""/>
+                        <span className="house-info">
+                            <span className="house-info__title">House Algoord</span>
+                            <span className="house-info__description">sjvnfjvnfjvknsvjnsvjsnvjsfvs
+                            jnsfjnsfjnsjfnsjlnjsfn</span>
+                            <span className="house-info__region">The Westerlands</span>
+                        </span>
+                    </span>
+                    <span className="house">
+                        <img className="house__logo" src={iconHouse} alt=""/>
+                        <span className="house-info">
+                            <span className="house-info__title">House Algoord</span>
+                            <span className="house-info__description">sjvnfjvnfjvknsvjnsvjsnvjsfvs
+                            jnsfjnsfjnsjfnsjlnjsfn</span>
+                            <span className="house-info__region">The Westerlands</span>
+                        </span>
+                    </span>
+                    <span className="house">
+                        <img className="house__logo" src={iconHouse} alt=""/>
+                        <span className="house-info">
+                            <span className="house-info__title">House Algoord</span>
+                            <span className="house-info__description">sjvnfjvnfjvknsvjnsvjsnvjsfvs
+                            jnsfjnsfjnsjfnsjlnjsfn</span>
+                            <span className="house-info__region">The Westerlands</span>
+                        </span>
+                    </span>
                 </span>
             </div>
         )

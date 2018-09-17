@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import './main.css';
 import { requestGetBook, requestGetCharacters, requestGetHouses } from './Request/request.js';
 import Header from './Components/header';
 import Books from './Components/books';
 import Houses from './Components/houses';
-import ModalAuthor from './Components/modal-author';
+import Author from './Components/author';
 import Footer from './Components/footer';
 
 class App extends Component {
@@ -43,7 +43,7 @@ class App extends Component {
         <Header/>
         <Books/>
         <Houses/>
-        <ModalAuthor/>
+        <Author/>
         <Footer/>
       </div>
     );
